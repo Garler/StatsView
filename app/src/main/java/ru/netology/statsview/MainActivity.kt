@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val view = findViewById<StatsView>(R.id.StatsView)
         view.data = listOf(
 //            500F, 500F, 500F, 500F  // Задача. Smart StatsView
-            0.25F, 0.25F, 0.25F,  //Задача. Not Filled
+            0.25F, 0.25F, 0.25F, 0.25F //Задача. Not Filled
 
         )
         val textView = findViewById<TextView>(R.id.label)
@@ -37,7 +37,8 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                     )
-                })
+                }
+        )
     }
 }
 
